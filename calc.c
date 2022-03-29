@@ -25,5 +25,3 @@ void main() {
   }
   while(opcion!=6);
 }
-PKNate
-hera
