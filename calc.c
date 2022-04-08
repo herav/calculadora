@@ -22,5 +22,5 @@ void main() {
       default: printf("Opcion no valida\n");
     }
   }
-  while(opcion!=6);
+  while(opcion!=5);
 }
