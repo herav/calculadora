@@ -18,8 +18,7 @@ void main() {
       case 2:printf("Restar\n");break;
       case 3:printf("Multiplicar\n");break;
       case 4:printf("Dividir\n");break;
-      case 5:printf("Potencia\n");break;
-      case 6:printf("Saliendo...\n");break;
+      case 5:printf("Saliendo...\n");break;
       default: printf("Opcion no valida\n");
     }
   }
