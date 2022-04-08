@@ -2,6 +2,7 @@
 #include<stdlib.h>
 void main() {
   int opcion;
+  float numeroA, numeroB;
   do{
     printf("------------------------\n");
     printf("1. Sumar\n");
@@ -14,7 +15,16 @@ void main() {
     scanf("%d",&opcion);
     system("cls");
     switch (opcion) {
-      case 1:printf("Sumar\n");break;
+      case 1:{
+        float suma;
+        printf("Elegiste la opcion para sumar.\n");
+        printf("Proporciona el primer numero: ");
+        scanf("%f",&numeroA);
+        printf("Proporciona el segundo numero: ");
+        scanf("%f",&numeroB);
+        suma=numeroA+numeroB;
+        printf("El resultado es %f\n",suma);
+      }break;
       case 2:printf("Restar\n");break;
       case 3:printf("Multiplicar\n");break;
       case 4:printf("Dividir\n");break;
