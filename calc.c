@@ -17,13 +17,13 @@ void main() {
     switch (opcion) {
       case 1:{
         float suma;
-        printf("Elegiste la opcion para sumar.\n");
-        printf("Proporciona el primer numero: ");
+        printf("SUMAR.\n\n");
+        printf("Primer numero:\t");
         scanf("%f",&numeroA);
-        printf("Proporciona el segundo numero: ");
+        printf("Segundo numero:\t");
         scanf("%f",&numeroB);
         suma=numeroA+numeroB;
-        printf("El resultado es %f\n",suma);
+        printf("Resultado:\t%.2f\n",suma);
       }break;
       case 2:printf("Restar\n");break;
       case 3:printf("Multiplicar\n");break;
